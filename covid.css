@@ -1,0 +1,24 @@
+.allStates
+{
+    display:flex;
+    flex-direction: column;
+}
+.StateInformation
+{
+    display:flex;
+    flex-direction: row;
+}
+.StateInformation >div{
+    margin-left: 2%;
+    margin-top:1%;
+    margin-bottom: 1%;
+    font-size: 2rem;
+    width:15%
+}
+.StateInformation:nth-child(odd) {
+    background: red;
+  }
+  
+.StateInformation:nth-child(even) {
+    background: blue;
+  }
